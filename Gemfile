@@ -25,10 +25,12 @@ gem 'jquery-rails'
 gem 'autotest', '4.4.6'
 
 group :development do
-  gem 'rspec-rails', '2.3.0'
+  gem 'rspec-rails', '2.9'
 end
 
 group :test do
-  gem 'rspec', '2.3.0'
+  gem 'rspec', '2.9'
 end
 
+#gem 'webrat' 
+#gem 'cucumber'
